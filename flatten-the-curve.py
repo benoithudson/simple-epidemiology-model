@@ -112,4 +112,5 @@ def iterate_to_crash():
     print("Peak infected reached at {} days with R0 = {}".format(i, R0))
 
 if __name__ == '__main__':
-    iterate_to_time(800)
+    # iterate_to_time(800)
+    iterate_to_crash()
